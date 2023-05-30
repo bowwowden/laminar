@@ -1,0 +1,6 @@
+project: laminar
+target: net
+duration: 300
+
+cmds:
+  - cmd: /net
