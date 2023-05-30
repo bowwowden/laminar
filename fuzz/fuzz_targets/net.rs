@@ -4,7 +4,7 @@ use laminar::DatagramSocket;
 
 use std::{collections::HashSet, net::SocketAddr, time::Instant};
 
-#[cfg(feature = "tester")]
+// #[cfg(feature = "tester")]
 use laminar::LinkConditioner;
 use laminar::{Config, Packet, Socket, SocketEvent};
 
