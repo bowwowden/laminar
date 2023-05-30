@@ -54,7 +54,6 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-        - mayhem/mayhemfiles/packets.mayhemfile
         - mayhem/mayhemfiles/net.mayhemfile
     steps:
     - uses: actions/checkout@v3
